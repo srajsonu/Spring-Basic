@@ -15,6 +15,5 @@ public class MockMailSender implements MailSender {
         log.info("Sending Mock mail to " + to);
         log.info("With subject " + subject);
         log.info("and body " + body);
-
     }
 }

@@ -4,7 +4,7 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <div class="container">
-    <spring:message code="hello" /> , ${name}
+    <spring:message code="hello" /> , ${name}!, Your id is ${id}!
 </div>
 
 
